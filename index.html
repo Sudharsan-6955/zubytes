@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_outward" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_cool_down" />
+    <title>Document</title>
+</head>
+<body>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow-lg ">
+        <div
+            class=" flex flex-wrap items-center justify-between mx-auto min-[936px]:pl-[10%] z-30 bg-white fixed top-0 left-0 right-0 max-[935px]:pl-4 maxmd:pt-2">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./Frame 4 1.png" class="h-12" alt="Flowbite Logo" />
+                <img src="./Frame 5.svg" class="h-12" alt="Flowbite Logo" />
+
+
+            </a>
+            <button data-collapse-toggle="navbar-dropdown" type="button"
+                class="inline-flex items-center justify-center w-9 h-9 text-sm    border-4 border-black rounded-full md:hidden hover:bg-gray-300 focus:outline-none focus:ring-  dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-dropdown" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5 text-black dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    fill="none" viewBox="0 0 17 14">
+                    <!-- Top line -->
+                    <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15" />
+                    <!-- Middle line with slightly thicker stroke -->
+                    <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 7h15" />
+                    <!-- Bottom line -->
+                    <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 13h15" />
+                </svg>
+            </button>
+
+
+            <div class="hidden w-full md:block md:w-auto md:bg-black  md:px-8 py-6 lg:pr-40" id="navbar-dropdown">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+
+                    <li>
+                        <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                            class="flex font-[syne] items-center justify-between w-full py-2 px-3 md:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700  dark:hover:bg-gray-700 md:dark:hover:bg-transparent text-xl ">Portfolio
+                            <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 1 4 4 4-4" />
+                            </svg></button>
+                        <!-- Dropdown menu -->
+                        <div id="dropdownNavbar"
+                            class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                aria-labelledby="dropdownLargeButton">
+                                <li>
+                                    <a href="Zubyte 3/index.html"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white font-[syne]">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white font-[syne] text-base">About</a>
+                                </li>
+
+                            </ul>
+                            <div class="py-1">
+                                <a href="#"
+                                    class="block px-4 py-2  text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white font-[syne]">Get
+                                    in Touch</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="Zubyte 3/index.html"
+                            class="block py-2 px-3 md:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-[syne] text-xl">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 md:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-[syne] text-xl">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 border border-white border-solid rounded-2xl md:text-white  hover:bg-gray-100 md:hover:bg-transparent  md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                            <span class="px-2 py-1 inline-block font-[syne] text-base">Get in Touch</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   <!-- first section -->
+   <div class=" pt-20  border-black">
+    <div class="border-1 border-black justify-around my-10 flex flex-wrap">
+    <div class=" border-black h-[23rem] w-[23rem] bg-contain  bg-no-repeat" style="background-image: url(./Group\ 7.png);">
+            <p class="text-4xl font-[syne] font-semibold tracking-tight">Our <br> <span
+                    class="text-purple-500">Works</span> <span>
+                        <i class="fa-solid fa-gears text-orange-500 text-3xl"></i></span></p>
+    </div>
+    <!-- multi box -->
+    <div
+        class="border-[0.3rem] rounded-xl bg-black grayscale  hover:grayscale-0 duration-500 border-black h-[29rem] max-md:w-[100%]  w-[32rem] ">
+        <div class="border-[0.1rem] h-[12rem]  border-black flex ">
+            <div
+                class="border-[0.3rem] rounded-2xl bg-white h-[7rem] w-[7rem] overflow-hidden   border-black bg-cover bg-no-repeat bg-center">
+                <img src="./Rectangle 23.png " class="h-[100%] w-[100%]  hover:scale-105 duration-200 ease-in-out"
+                    alt="" srcset="">
+            </div>
+            <div
+                class="border-[0.3rem] rounded-2xl bg-white h-[7rem] w-[7rem] border-black  bg-cover bg-no-repeat bg-center">
+                <img src="./Rectangle 24.png " class="h-[100%] w-[100%] hover:scale-105 duration-200 ease-in-out"
+                    alt="" srcset="">
+
+            </div>
+            <div
+                class="border-[0.3rem] rounded-xl bg-white h-[7rem]  w-[7rem]  border-black  bg-cover bg-no-repeat bg-center">
+                <img src="./Rectangle 25.png " class="h-[100%] w-[100%] hover:scale-105 duration-200 ease-in-out"
+                    alt="" srcset="">
+
+            </div>
+            <div
+                class="border-[0.1rem]   rounded-xl h-[10rem] w-[15rem] bg-white border-black  bg-contain bg-no-repeat bg-center">
+                <img src="./Rectangle 29.png " class="h-[100%] w-[100%] hover:scale-105 duration-200 ease-in-out"
+                    alt="" srcset="">
+
+            </div>
+
+
+        </div>
+        <div class="border-[0.rem] -mt-[5rem]  h-[15rem]   border-black flex ">
+            <div
+                class="border-[0.3rem] rounded-2xl my-1 h-[12rem] bg-white w-[21rem] bg-center bg-cover bg-no-repeat border-black overflow-hidden">
+                <img src="./Rectangle 26.png " class="h-[100%] w-[100%] hover:scale-105 duration-200 ease-in-out"
+                    alt="" srcset="">
+
+            </div>
+            <div class="border-[0.3rem] rounded-2xl  h-[8.5rem] bg-white w-[15rem] mt-[3.9rem] overflow-hidden bg-center bg-cover bg-no-repeat border-black"
+                style="background-image: url(./Rectangle\ 28.png);">
+                <img src="./Rectangle 28.png " class="h-[100%] w-[100%] hover:scale-105 duration-200 ease-in-out"
+                    alt="" srcset="">
+
+            </div>
+
+        </div>
+        <div class="border-[0.1rem] h-[8rem] -mt-11 border-black flex justify-start">
+            <div
+                class="border-[0.3rem] rounded-2xl h-[9rem] w-[13rem] bg-white border-black bg-center bg-cover bg-no-repeat overflow-hidden">
+                <img src="./Rectangle 30.png " class="h-[100%] w-[100%] hover:scale-105 duration-200 ease-in-out"
+                    alt="" srcset="">
+
+            </div>
+            <div class="border-[0.3rem] rounded-2xl h-[9rem] w-[8rem]  bg-teal-900 border-black overflow-hidden">
+                <div class="h-[100%] w-[100%] hover:scale-105  duration-200 ease-in-out">
+                    <a href="#hii" class="scroll-smooth ">
+                        <!-- <span class="material-symbols-outlined">
+                            arrow_cool_down
+                            </span> -->
+                        <p class="text-white font-[syne] mt-20 text-center"> click here </p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="border-[0.3rem] rounded-2xl h-[9rem] w-[9rem] bg-white  border-black overflow-hidden">
+                <img src="./Rectangle 29 (1).png" class="h-[100%] w-[100%] hover:scale-105 duration-200 ease-in-out"
+                    alt="" srcset="">
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+</div>
+    <!-- second section -->
+    <div class="bg-cover bg-no-repeat w-[100%] p-10" style="background-image: url(./Hero\ Section\ \(1\).png);">
+        <div class="flex gap-5 justify-around mx-auto flex-wrap">
+            <div class=" rounded-2xl h-[20rem]  bg-contain bg-no-repeat overflow-hidden">
+                <img src="./pic 1.png" class="h-[20rem] w-fit hover:scale-110 duration-300 ease-in-out"
+                    alt="" srcset="">
+
+            </div>
+            <div class=" w-[40%] my-auto max-md:w-[100%]">
+                <p class=" font-semibold text-xl my-10 font-[syne]">Tittle of the Project</p>
+                <p class="my-3 font-[syne]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+                    harum eaque veniam iste. Laborum commodi distinctio vitae voluptates magni nesciunt!</p>
+                <button
+                    class="h-10 flex rounded-lg bg-purple-500 duration-200 font-[syne] text-lg hover:bg-black hover:text-white">
+                    <p class="p-2 text-base ">See more</p> <span class="material-symbols-outlined mt-2  text-base  ">
+                        arrow_outward
+                    </span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- second second section -->
+        <div
+            class="border-1 my-10   border-black flex-row-reverse flex  justify-around flex-wrap bg-cover bg-no-repeat">
+            <div class="flex gap-5 flex-row-reverse justify-around  flex-wrap">
+                <div class="border- border-black rounded-2xl h-[20rem]  bg-contain bg-no-repeat overflow-hidden">
+                    <img src="./pic 2.png" class="h-[20rem] w-fit hover:scale-110 duration-300 ease-in-out" alt=""
+                        srcset="">
+
+                </div>
+                <div class="border-1 border-black w-[40%] my-auto max-md:w-[100%]">
+                    <p class=" font-semibold text-xl my-10 font-[syne]">Tittle of the Project</p>
+                    <p class="my-3 font-[syne]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates
+                        harum eaque veniam iste. Laborum commodi distinctio vitae voluptates magni nesciunt!</p>
+                    <button
+                        class="h-10 flex rounded-lg bg-purple-500 duration-200 font-[syne] text-lg hover:bg-black hover:text-white">
+                        <p class="p-2 text-base ">See more</p> <span
+                            class="material-symbols-outlined mt-2  text-base  ">
+                            arrow_outward
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+   <!-- third section -->
+   <div class="my-20  ">
+    <div class="flex-wrap flex max-w-full justify-around mx-auto">
+        <div class=" border-black  ">
+            <p class="text-orange-500  font-[syne] font-bold">Have an idea?</p>
+            <p class="text-5xl font-[syne] font-semibold leading-[3.5rem]">Ready to <span
+                    class="text-purple-500">delve</span> <br>
+                deeper into your <br>
+                project needs?</p>
+        </div>
+        <div class="">
+
+            <form class="max-w-md " id="hii">
+                <div class="grid md:grid-cols-2 md:gap-6">
+                    <div class="relative z-0 w-full mb-5 group">
+                        <input type="text" name="floating_first_name" id="floating_first_name"
+                            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-gray-700 appearance-none dark:text-white dark:border-black dark:focus:border-black focus:outline-none focus:ring-0 focus:border-black peer"
+                            placeholder=" " required />
+                        <label for="floating_first_name"
+                            class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-black peer-focus:dark:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                            <p class="-mt-2 text-lg font-base font-semibold font-[syne]">Your name <span
+                                    class="text-orange-600">*</span> </p>
+                        </label>
+                    </div>
+                    <div class="relative z-0 w-full mb-5 group">
+                        <input type="email" name="floating_email" id="floating_email"
+                            class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-gray-700 appearance-none dark:text-white dark:border-black dark:focus:border-black focus:outline-none focus:ring-0 focus:border-black peer"
+                            placeholder=" " required />
+                        <label for="floating_first_name"
+                            class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-black peer-focus:dark:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                            <p class="-mt-2 text-lg font-base font-semibold font-[syne]">Your Email <span
+                                    class="text-orange-600">*</span> </p>
+                        </label>
+                    </div>
+                </div>
+                <div class="relative z-0 w-full mb-5 group">
+                    <input type="text" name="floating_first_name" id="floating_first_name"
+                        class="block mt-3 py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b border-gray-700 appearance-none dark:text-white dark:border-black dark:focus:border-black focus:outline-none focus:ring-0 focus:border-black peer"
+                        placeholder=" " required />
+                    <label for="floating_first_name"
+                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-black peer-focus:dark:text-black peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">
+                        <p class="-mt-2 text-lg font-semibold font-[syne]">Tell us about your project<span
+                                class="text-orange-600">*</span> </p>
+                    </label>
+                </div>
+                <p class="text-gray-400 text-sm font-[syne]"><i class="fa-solid fa-link mx-5"></i> <span
+                        class="text-black">Attach file</span> <br> <br>By clicking submit, I consent to the es <span
+                        class="text-orange-500"> cookies policy </span> governing my service usage and provided
+                    personal data,respectively</p>
+                <button
+                    class="h-10 flex rounded-full bg-purple-500 duration-200 font-[syne] focus:ring-4 focus:outline-none focus:ring-gray-400 mt-3  text-lg hover:bg-black hover:text-white">
+                    <span class="material-symbols-outlined mt-2 ml-2 text-base  ">
+                        arrow_outward
+                    </span>
+                    <p class="mt-2 text-base ml-1 mx-2">Submit</p>
+                </button>
+        </div>
+
+
+
+        </form>
+    </div>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+</body>
+</html>
